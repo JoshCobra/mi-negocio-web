@@ -27,7 +27,7 @@ export const businessConfig = {
 
   // ==================== HERO SECTION ====================
   hero: {
-    title: 'El Arte del Café en cada Taza',
+    title: 'PIOMBO CAFE',
     subtitle: 'Desayunos artesanales y café de especialidad en el corazón de Benito Juárez. Un espacio acogedor donde cada momento es especial.',
     ctaText: 'Hacer Pedido Ahora',
     // Imagen de fondo - Usa Unsplash o tu propia imagen
@@ -47,6 +47,10 @@ export const businessConfig = {
       {
         url: '/img/menu-hotcackes.png',
         title: 'Desayunos & Hotcakes'
+      },
+      {
+        url: '/img/menu-tizana-otonial.png',
+        title: 'Tizana otoñal'
       }
     ]
   },
