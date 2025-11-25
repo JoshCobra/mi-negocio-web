@@ -21,8 +21,12 @@ const SmartChatWidget = () => {
   }, [isOpen]);
 
   const handleOptionClick = (option) => {
-    const message = encodeURIComponent(option.message);
-    window.open(`https://wa.me/${contact.phone}?text=${message}`, '_blank');
+    if (option.id === 'ubicacion') {
+      window.open(contact.googleMapsUrl, '_blank');
+    } else {
+      const message = encodeURIComponent(option.message);
+      window.open(`https://wa.me/${contact.phone}?text=${message}`, '_blank');
+    }
     setTimeout(() => setIsOpen(false), 500);
   };
 

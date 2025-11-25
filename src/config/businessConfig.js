@@ -15,8 +15,9 @@ export const businessConfig = {
     phoneDisplay: '+52 55 2821 5870', // Formato para mostrar
     email: 'contacto@piombocafe.com',
     address: 'Sebastián del Piombo 50, Nonoalco, Benito Juárez, 03700 Ciudad de México, CDMX',
-    addressShort: 'Del Piombo 50, Nonoalco, Benito Juárez',
+    addressShort: 'Sebastian Del Piombo 50, Nonoalco',
     googleMaps: '9RJ6+W4 Ciudad de México, Cd. de México',
+    googleMapsUrl: 'https://maps.app.goo.gl/2w2THRFUgPusp8pq6',
     
     // Redes sociales
     social: {
