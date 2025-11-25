@@ -11,7 +11,7 @@ export const businessConfig = {
   
   // ==================== CONTACTO ====================
   contact: {
-    phone: '5255528215870',           // Formato: código país + número (sin + ni espacios)
+    phone: '525528215870',           // Formato: código país + número (sin + ni espacios)
     phoneDisplay: '+52 55 2821 5870', // Formato para mostrar
     email: 'contacto@piombocafe.com',
     address: 'Sebastián del Piombo 50, Nonoalco, Benito Juárez, 03700 Ciudad de México, CDMX',
