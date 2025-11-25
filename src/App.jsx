@@ -1,5 +1,6 @@
 import HeroSection from './components/HeroSection'
 import ServicesGrid from './components/ServicesGrid'
+import MenuSection from './components/MenuSection'
 import TestimonialsSection from './components/TestimonialsSection'
 import CTASection from './components/CTASection'
 import SmartChatWidget from './components/SmartChatWidget'
@@ -12,6 +13,9 @@ function App() {
       
       {/* Services Grid */}
       <ServicesGrid />
+      
+      {/* Menu Section */}
+      <MenuSection />
       
       {/* Testimonials Section (BONUS) */}
       <TestimonialsSection />

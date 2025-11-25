@@ -6,130 +6,150 @@
 
 export const businessConfig = {
   // ==================== DATOS DEL NEGOCIO ====================
-  businessName: 'Mi Negocio',
-  businessType: 'Dentista', // Dentista, Taller Mecánico, Salón de Belleza, etc.
+  businessName: 'Piombo Café',
+  businessType: 'Cafetería', 
   
   // ==================== CONTACTO ====================
   contact: {
-    phone: '52XXXXXXXXXX',           // Formato: código país + número (sin + ni espacios)
-    phoneDisplay: '+52 XXX XXX XXXX', // Formato para mostrar
-    email: 'contacto@tunegocio.com',
-    address: 'Av. Principal #123, Col. Centro, Ciudad',
+    phone: '5255528215870',           // Formato: código país + número (sin + ni espacios)
+    phoneDisplay: '+52 55 2821 5870', // Formato para mostrar
+    email: 'contacto@piombocafe.com',
+    address: 'Sebastián del Piombo 50, Nonoalco, Benito Juárez, 03700 Ciudad de México, CDMX',
+    addressShort: 'Del Piombo 50, Nonoalco, Benito Juárez',
+    googleMaps: '9RJ6+W4 Ciudad de México, Cd. de México',
     
     // Redes sociales
     social: {
-      facebook: 'https://facebook.com/tunegocio',
-      instagram: 'https://instagram.com/tunegocio',
+      facebook: '',
+      instagram: 'https://www.instagram.com/piombocafe/',
     }
   },
 
   // ==================== HERO SECTION ====================
   hero: {
-    title: 'Recupera tu sonrisa hoy',
-    subtitle: 'Atención dental profesional con tecnología de vanguardia. Tu salud bucal es nuestra prioridad.',
-    ctaText: 'Agenda tu Cita Ahora',
+    title: 'El Arte del Café en cada Taza',
+    subtitle: 'Desayunos artesanales y café de especialidad en el corazón de Benito Juárez. Un espacio acogedor donde cada momento es especial.',
+    ctaText: 'Hacer Pedido Ahora',
     // Imagen de fondo - Usa Unsplash o tu propia imagen
-    backgroundImage: 'https://images.unsplash.com/photo-1629909615184-74f495363b67?w=1920&h=1080&fit=crop',
+    backgroundImage: '/img/imagen-piombo-cafe.png',
+  },
+
+  // ==================== MENÚ ====================
+  menu: {
+    sectionTitle: 'Nuestro Menú',
+    sectionSubtitle: 'Descubre nuestra deliciosa variedad de platillos y bebidas preparados con amor',
+    
+    images: [
+      {
+        url: '/img/menu-burger.png',
+        title: 'Burgers & Especialidades'
+      },
+      {
+        url: '/img/menu-hotcackes.png',
+        title: 'Desayunos & Hotcakes'
+      }
+    ]
   },
 
   // ==================== SERVICIOS ====================
   services: {
     sectionTitle: 'Nuestros Servicios',
-    sectionSubtitle: 'Ofrecemos una amplia gama de tratamientos dentales con la mejor tecnología',
+    sectionSubtitle: 'Experiencia completa de cafetería con opciones para todos',
     
     items: [
       {
-        title: 'Limpieza Dental',
-        description: 'Limpieza profunda y pulido dental para mantener tu sonrisa radiante y saludable.',
-        icon: 'MdOutlineCleaningServices', // Nombre del icono de react-icons
-        gradient: 'from-blue-500 to-blue-600'
+        title: 'Café Especialidad',
+        description: 'Granos selectos preparados por baristas expertos. Espresso, americano, capuchino y más.',
+        icon: 'FaCoffee',
+        gradient: 'from-amber-600 to-amber-700'
       },
       {
-        title: 'Ortodoncia',
-        description: 'Brackets y alineadores invisibles para corregir la posición de tus dientes.',
-        icon: 'FaTeeth',
-        gradient: 'from-blue-600 to-blue-700'
+        title: 'Desayunos',
+        description: 'Desayunos frescos y deliciosos preparados al momento. El mejor inicio para tu día.',
+        icon: 'MdOutlineFoodBank',
+        gradient: 'from-amber-700 to-amber-800'
       },
       {
-        title: 'Urgencias Dentales',
-        description: 'Atención inmediata para emergencias. Estamos aquí cuando más nos necesitas.',
-        icon: 'BiSolidFirstAid',
-        gradient: 'from-blue-700 to-blue-800'
+        title: 'Para Llevar',
+        description: 'Servicio rápido para llevar. Haz tu pedido por teléfono o WhatsApp y recógelo listo.',
+        icon: 'MdDeliveryDining',
+        gradient: 'from-amber-800 to-amber-900'
       }
     ]
   },
 
   // ==================== TESTIMONIOS ====================
   testimonials: {
-    sectionTitle: 'Lo que dicen nuestros pacientes',
-    sectionSubtitle: 'Miles de sonrisas transformadas y pacientes satisfechos',
+    sectionTitle: 'Lo que dicen nuestros clientes',
+    sectionSubtitle: 'Calificación de 4.4 estrellas con más de 61 reseñas verificadas',
     
     items: [
       {
-        name: 'María González',
-        role: 'Paciente desde 2023',
-        comment: 'Excelente servicio, muy profesionales. Mi sonrisa nunca había lucido mejor. ¡100% recomendado!',
+        name: 'Ana Rodríguez',
+        role: 'Cliente frecuente',
+        comment: 'El mejor café de la zona. El ambiente es acogedor y los desayunos son deliciosos. ¡Totalmente recomendado!',
         rating: 5,
         image: 'https://i.pravatar.cc/150?img=1'
       },
       {
-        name: 'Carlos Ramírez',
-        role: 'Paciente desde 2022',
-        comment: 'El mejor dentista de la ciudad. Atención personalizada y resultados increíbles.',
+        name: 'Miguel Torres',
+        role: 'Cliente desde 2023',
+        comment: 'Excelente atención y productos de calidad. Mi lugar favorito para trabajar con un buen café.',
         rating: 5,
         image: 'https://i.pravatar.cc/150?img=3'
       },
       {
-        name: 'Ana Martínez',
-        role: 'Paciente desde 2024',
-        comment: 'Me encantó el trato y la tecnología que utilizan. Sin dolor y con excelentes resultados.',
-        rating: 5,
+        name: 'Laura Méndez',
+        role: 'Cliente frecuente',
+        comment: 'Los desayunos son increíbles y el servicio a domicilio siempre llega a tiempo. ¡Me encanta!',
+        rating: 4,
         image: 'https://i.pravatar.cc/150?img=5'
       }
     ],
     
     // Trust badge
-    rating: '4.9',
-    totalReviews: '+500 reseñas verificadas'
+    rating: '4.4',
+    totalReviews: '61 reseñas verificadas'
   },
 
   // ==================== CTA SECTION ====================
   cta: {
-    title: '¿Listo para tu mejor sonrisa?',
-    subtitle: 'Agenda tu cita ahora y recibe una evaluación completamente gratis',
-    primaryButton: 'Agendar por WhatsApp',
+    title: '¿Listo para disfrutar?',
+    subtitle: 'Haz tu pedido ahora por WhatsApp o llámanos. Entrega a domicilio disponible.',
+    primaryButton: 'Pedir por WhatsApp',
     secondaryButton: 'Llamar Ahora',
     
     // Horarios
-    schedule: 'Lun - Sáb: 9am - 7pm',
-    responseTime: 'Respuesta en 24hrs'
+    schedule: 'Lun - Sáb: 9am - 8pm',
+    scheduleDetail: 'Domingos cerrado',
+    responseTime: 'Entrega rápida'
   },
 
   // ==================== CHAT WIDGET ====================
   chatWidget: {
-    greeting: 'Hola 👋, soy el asistente virtual. ¿En qué puedo ayudarte hoy?',
+    greeting: 'Hola 👋, soy el asistente virtual de Piombo Café. ¿En qué puedo ayudarte hoy?',
     
     options: [
       {
-        id: 'cita',
-        emoji: '📅',
-        text: 'Agendar Cita',
-        message: 'Hola, quiero agendar una cita',
-        gradient: 'from-blue-500 to-blue-600'
+        id: 'pedido',
+        emoji: '☕',
+        text: 'Hacer Pedido',
+        message: 'Hola, quiero hacer un pedido a domicilio',
+        gradient: 'from-amber-600 to-amber-700'
       },
       {
         id: 'ubicacion',
         emoji: '📍',
         text: 'Ver Ubicación',
         message: 'Hola, quisiera conocer su ubicación',
-        gradient: 'from-blue-600 to-blue-700'
+        gradient: 'from-amber-700 to-amber-800'
       },
       {
-        id: 'precios',
-        emoji: '💰',
-        text: 'Precios',
-        message: 'Hola, me gustaría información sobre precios',
-        gradient: 'from-blue-700 to-blue-800'
+        id: 'menu',
+        emoji: '📋',
+        text: 'Ver Menú',
+        message: 'Hola, me gustaría ver el menú y precios',
+        gradient: 'from-amber-800 to-amber-900'
       }
     ]
   },
@@ -137,9 +157,9 @@ export const businessConfig = {
   // ==================== COLORES (OPCIONAL) ====================
   // Si quieres usar otros colores, modifica tu tailwind.config.js
   theme: {
-    primary: 'blue-600',
-    primaryHover: 'blue-700',
-    secondary: 'blue-500',
+    primary: 'amber-700',
+    primaryHover: 'amber-800',
+    secondary: 'amber-600',
   }
 };
 
