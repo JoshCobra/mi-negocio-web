@@ -42,7 +42,7 @@ const ServiceCard = ({ service, index }) => {
     >
       <div className="bg-white/80 backdrop-blur-md p-5 sm:p-6 md:p-7 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 h-full border border-blue-100 hover:border-blue-300">
         {/* Icon with gradient background */}
-        <div className={`w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-gradient-to-br ${service.color} rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
+        <div className={`w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-linear-to-br ${service.color} rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
           <Icon className="text-xl sm:text-2xl md:text-3xl text-white" />
         </div>
         
@@ -55,7 +55,7 @@ const ServiceCard = ({ service, index }) => {
         </p>
 
         {/* Hover effect line */}
-        <div className="mt-4 h-1 w-0 bg-gradient-to-r from-blue-500 to-blue-600 group-hover:w-full transition-all duration-500 rounded-full"></div>
+        <div className="mt-4 h-1 w-0 bg-linear-to-r from-blue-500 to-blue-600 group-hover:w-full transition-all duration-500 rounded-full"></div>
       </div>
     </motion.div>
   );
@@ -63,7 +63,7 @@ const ServiceCard = ({ service, index }) => {
 
 const ServicesGrid = () => {
   return (
-    <section className="py-12 sm:py-14 md:py-16 bg-gradient-to-br from-blue-50 to-white">
+    <section className="py-12 sm:py-14 md:py-16 bg-linear-to-br from-blue-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div

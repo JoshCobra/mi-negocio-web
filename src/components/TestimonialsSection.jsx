@@ -100,7 +100,7 @@ const TestimonialsSection = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-8 sm:mt-10 md:mt-12 text-center"
         >
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-50 to-blue-100 px-4 sm:px-6 py-3 rounded-full">
+          <div className="inline-flex items-center gap-2 bg-linear-to-r from-blue-50 to-blue-100 px-4 sm:px-6 py-3 rounded-full">
             <FaStar className="text-yellow-400 text-xl sm:text-2xl" />
             <span className="font-bold text-gray-800 text-base sm:text-lg">4.9/5.0</span>
             <span className="text-gray-600 text-sm sm:text-base">• +500 reseñas verificadas</span>
