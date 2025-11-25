@@ -41,16 +41,16 @@ export const businessConfig = {
     
     images: [
       {
+        url: '/img/menu-tizana-otonial.png',
+        title: 'Tizana otoñal'
+      },
+      {
         url: '/img/menu-burger.png',
         title: 'Burgers & Especialidades'
       },
       {
         url: '/img/menu-hotcackes.png',
         title: 'Desayunos & Hotcakes'
-      },
-      {
-        url: '/img/menu-tizana-otonial.png',
-        title: 'Tizana otoñal'
       }
     ]
   },
